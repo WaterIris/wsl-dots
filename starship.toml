@@ -1,0 +1,19 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = false
+format = "$directory$python$git_branch$git_state$git_status$cmd_duration$line_break$character"
+
+[directory]
+truncation_length = 5
+truncate_to_repo = false
+style = "blue"
+
+[character]
+success_symbol = "[❯](#bb9af7)"
+error_symbol = "[❯](#f7768e)"
+
+[cmd_duration]
+min_time = 1000
+
+[python]
+format = '[(\($version\) )]($style)'
