@@ -1,0 +1,6 @@
+require('config.options')
+require('config.keymaps')
+require('config.lazy')
+require('config.recolour')
+require('config.custom_tabline')
+require('internal.lsp')
